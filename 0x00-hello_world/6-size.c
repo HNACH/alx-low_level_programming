@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main - Entry point - Code should print size of various types of data in bytes.
+* main - Entry point -print size of various types of data in bytes.
 *
 * Return: Always 0 (Success)
 */
