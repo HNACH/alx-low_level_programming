@@ -1,12 +1,14 @@
 #include<stdio.h>
 /**
 * main - Entry point
-*Prints all numbers from 0 to 9
-* Return 0 (Success)
+*
+* Description: 'the program's description'
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-int i;
+	int i;
 for (i = 0; i < 10 ; i++)
 {
 printf("%d", i);
