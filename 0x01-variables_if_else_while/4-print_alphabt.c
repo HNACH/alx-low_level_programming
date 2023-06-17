@@ -1,18 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - print all the alphabets except e and q
+ * main - Entry point
  *
- * Returns 0
-*/
+ * Description: Prints all the alphabets except 'e' and 'q'
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
-char alphabet;
+	char alphabet;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-	if (alphabet != 'e' && alphabet != 'q')
-	putchar(alphabet);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		if (alphabet != 'e' && alphabet != 'q')
+			putchar(alphabet);
+	}
+	putchar('\n');
+
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
